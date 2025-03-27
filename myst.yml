@@ -1,0 +1,24 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 04251dc7-3801-4e67-9049-4fc655f1bf3e
+  title: Cheat Sheet
+  # description:
+  # keywords: []
+  # authors: []
+  # github:
+  abbreviations:
+    DRAC: Digital Research Alliance of Canada
+    fir:  WestDRI Main Cluster @ Simon Fraser University
+    narval: Calcul Québec Old Cluster @ École de Technologie Supérieure
+    nibi: SHARCNET Main Cluster @ University of Waterloo
+    rorqual: Calcul Québec New Cluster @ École de Technologie Supérieure
+    trillium: SciNet Main Cluster @ University of Toronto
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  options:
+  #   favicon: favicon.ico
+    logo_text: Quickstart Guide
+    logo: images/logo.svg
+    logo_dark: images/logo.svg
