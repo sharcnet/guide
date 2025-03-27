@@ -14,11 +14,12 @@ project:
     nibi: SHARCNET Main Cluster @ University of Waterloo
     rorqual: Calcul Québec New Cluster @ École de Technologie Supérieure
     trillium: SciNet Main Cluster @ University of Toronto
-  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: index.md
 site:
   template: book-theme
   options:
-  #   favicon: favicon.ico
+    favicon: ./images/logo.png
     logo_text: Quickstart Guide
     logo: images/logo.svg
     logo_dark: images/logo.svg
