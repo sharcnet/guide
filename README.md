@@ -1,3 +1,5 @@
+[![MyST GitHub Pages Deploy](https://github.com/sharcnet/guide/actions/workflows/deploy.yml/badge.svg)](https://github.com/sharcnet/guide/actions/workflows/deploy.yml)
+
 # SHARCNET User's Guide
 
 ## Requirements
