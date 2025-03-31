@@ -53,18 +53,48 @@ exports:
 ::::
 :::::
 
-::::{dropdown}
+:::::{dropdown}
 :open:
 
 ## Connecting to nibi 🔗
-|Method|URL/Command|
-|-|-|
-|From a browser|https://jupyterhub.nibi.sharcnet.ca/|
-|From command line|`ssh username@nibi.sharcnet.ca`|
-|To cloud|https://cloud.nibi.alliancecan.ca/|
-|To transfer large data|https://globus.alliancecan.ca/|
+
+::::{grid} 1 1 2 2
+
+:::{card}
+:link: https://jupyterhub.nibi.sharcnet.ca/
+:header: **From browser** 🌐
+:footer: https://jupyterhub.nibi.sharcnet.ca/
+
+![](./images/qrc/nibi-jupyter.png)
+:::
+
+:::{card}
+:link: https://docs.alliancecan.ca/wiki/SSH
+:header: **From command line** 🖥️
+Open a terminal window and run the following command:
+```bash
+ssh username@nibi.sharcnet.ca
+```
+:::
+
+:::{card}
+:link: https://cloud.nibi.alliancecan.ca/
+:header: **To cloud** ☁️
+:footer: https://cloud.nibi.alliancecan.ca/
+
+![](./images/qrc/nibi-cloud.png)
+:::
+
+:::{card}
+:link: https://globus.alliancecan.ca/
+:header: **To transfer large data** 📁
+:footer: https://globus.alliancecan.ca/
+
+![](./images/qrc/nibi-globus.png)
+:::
 
 ::::
+:::::
 
 ::::{dropdown}
 :open:
