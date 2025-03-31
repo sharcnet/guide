@@ -1,6 +1,6 @@
 ---
 title: Cheat Sheet
-subtitle: Version 0.1, best before 2025-12-31
+subtitle: Version 0.1 • Best Before 2025-12-31
 description: Cheat sheet for using SHARCNET resources
 downloads:
   - file: ./exports/cheatsheet.pdf
