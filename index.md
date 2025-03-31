@@ -14,7 +14,7 @@ exports:
 ::::{dropdown}
 :open:
 
-## Getting help
+## Getting help 🛟
 |Email|Description|
 |-|-|
 |help@sharcnet.ca|For SHARCNET specific issues|
@@ -27,21 +27,36 @@ exports:
 
 ::::
 
-::::{dropdown}
+:::::{dropdown}
 :open:
 
-## Training courses
-|||
-|-|-|
-|https://training.sharcnet.ca/|![](./images/qrc/sharcnet-training.png)|
-|https://training.computeontario.ca/|![](./images/qrc/co-training.png)|
+## Training courses 🏫
 
+::::{grid} 1 1 2 2
+
+:::{card}
+:link: https://training.sharcnet.ca/
+:header: **SHARCNET**
+:footer: https://training.sharcnet.ca/
+
+![](./images/qrc/sharcnet-training.png)
+:::
+
+:::{card}
+:link: https://training.computeontario.ca/
+:header: **Compute Ontario**
+:footer: https://training.computeontario.ca/
+
+![](./images/qrc/co-training.png)
+
+:::
 ::::
+:::::
 
 ::::{dropdown}
 :open:
 
-## Connecting to nibi
+## Connecting to nibi 🔗
 |Method|URL/Command|
 |-|-|
 |From a browser|https://jupyterhub.nibi.sharcnet.ca/|
@@ -54,7 +69,7 @@ exports:
 ::::{dropdown}
 :open:
 
-## Using cluster nibi
+## Using cluster nibi 💦
 
 :::{dropdown}
 :open:
@@ -260,7 +275,7 @@ XXXXXXXXXXXXXXXXXXXX
 ::::{dropdown}
 :open:
 
-## Using Python
+## Using Python 🐍
 To create a virtual environment with NumPy as example Python package
 ```bash
 module load python/3.12
@@ -290,7 +305,7 @@ Some Python packages are provided as software modules so they are not installed 
 ::::{dropdown}
 :open:
 
-## Using Apptainer
+## Using Apptainer 🚢
 Some packages are difficult to install in our Linux environment.  The alternative is to install them in a container.  Here is an example with Anaconda and Numpy.
 
 Create file `image.def` with
@@ -321,7 +336,7 @@ Add `--nv` flag if you want to use GPUs.
 ::::{dropdown}
 :open:
 
-## DRAC clusters across Canada
+## DRAC clusters across Canada 🌐
 
 |Cluster|Cores|GPUs|Max memory|Storage|
 |-|-|-|-|-|
@@ -336,7 +351,7 @@ Add `--nv` flag if you want to use GPUs.
 ::::{dropdown}
 :open:
 
-## nibi specs
+## nibi specs 📈
 
 |Nodes|Cores|Memory|CPU|GPU|
 |-|-|-|-|-|
